@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.Default.Constructi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.Default.Testing", "R5T.Bath.Default.Testing\R5T.Bath.Default.Testing.csproj", "{473274F0-589C-4496-80FE-8653A16F728D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{098D7056-D168-441A-9AAA-4ECCEE7FC020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{697A68EB-05FE-4DA9-9374-719A893C4FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{473274F0-589C-4496-80FE-8653A16F728D}.Release|x64.Build.0 = Release|Any CPU
 		{473274F0-589C-4496-80FE-8653A16F728D}.Release|x86.ActiveCfg = Release|Any CPU
 		{473274F0-589C-4496-80FE-8653A16F728D}.Release|x86.Build.0 = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|x64.Build.0 = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Debug|x86.Build.0 = Debug|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|x64.ActiveCfg = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|x64.Build.0 = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|x86.ActiveCfg = Release|Any CPU
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{697A68EB-05FE-4DA9-9374-719A893C4FC8} = {098D7056-D168-441A-9AAA-4ECCEE7FC020}
 	EndGlobalSection
 EndGlobal

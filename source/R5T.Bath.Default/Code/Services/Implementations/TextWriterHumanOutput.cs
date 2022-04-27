@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Threading.Tasks;
+
+using R5T.T0064;
 
 
 namespace R5T.Bath.Default
@@ -8,7 +10,8 @@ namespace R5T.Bath.Default
     /// <summary>
     /// Note: Creator is responsible for disposal of the constructor-provided <see cref="System.IO.TextWriter"/> instance.
     /// </summary>
-    public class TextWriterHumanOutput : IHumanOutput
+    [ServiceImplementationMarker]
+    public class TextWriterHumanOutput : IHumanOutput, IServiceImplementation
     {
         protected TextWriter TextWriter { get; set; }
 
@@ -18,7 +21,8 @@ namespace R5T.Bath.Default
             this.TextWriter = textWriter;
         }
 
-        protected TextWriterHumanOutput()
+        [ServiceImplementationConstructorMarker]
+        public TextWriterHumanOutput()
         {
         }
 

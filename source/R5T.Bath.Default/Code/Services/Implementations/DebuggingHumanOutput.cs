@@ -1,5 +1,8 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
+
+using R5T.T0064;
+
 
 namespace R5T.Bath.Default
 {
@@ -9,7 +12,8 @@ namespace R5T.Bath.Default
     /// This debugging-specific version of the <see cref="IHumanOutput"/> service implements "sync-over-async" to make asynchronous operations synchronous.
     /// This service should be added to a DI-container via a factory method that specifies which <see cref="IHumanOutput"/> service instance should be used internally.
     /// </summary>
-    public class DebuggingHumanOutput : IHumanOutput
+    [ServiceImplementationMarker]
+    public class DebuggingHumanOutput : IHumanOutput, IServiceImplementation
     {
         private IHumanOutput HumanOutput { get; }
 
