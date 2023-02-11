@@ -6,5 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Bath.Base\source\R5T.Bath.Base\R5T.Bath.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064.T001\R5T.T0064.T001.csproj" />
   </ItemGroup>
 </Project>
